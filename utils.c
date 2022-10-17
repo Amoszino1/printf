@@ -9,7 +9,7 @@
 int is_printable(char c)
 {
 	if (c >= 32 && c < 127)
-		return (1);
+	return (1);
 
 	return (0);
 }
@@ -43,6 +43,7 @@ int append_hexa_code(char ascii_code, char buffer[], int i)
  *
  * Return: 1 if c is a digit, 0 otherwise
  */
+
 int is_digit(char c)
 {
 	if (c >= '0' && c <= '9')
